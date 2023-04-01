@@ -1,5 +1,5 @@
-#ifndef _SORTS_
-#define _SORTS_
+#ifndef SORTS
+#define SORTS
 
 #include <stddef.h>
 #include <stdio.h>
@@ -31,4 +31,4 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quick_sort_recursion(int *array, int low, int high, int size);
 
-#endif // _SORTS
+#endif 
